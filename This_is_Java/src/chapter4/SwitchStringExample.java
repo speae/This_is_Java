@@ -4,7 +4,7 @@ public class SwitchStringExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String position = "°úÀå";
+		String position = "ï¿½ï¿½ï¿½ï¿½";
 		
 		// jdk version > 9
 		Runtime.Version version = Runtime.version();
@@ -13,25 +13,25 @@ public class SwitchStringExample {
 		
 		if (versionFeature < 17) {
 			switch (position) {
-			case "ºÎÀå":
-				System.out.println("700¸¸¿ø");
+			case "ë¶€ì¥":
+				System.out.println("700ë§Œì›");
 				break;
-			case "°úÀå": 
-				System.out.println("500¸¸¿ø");
+			case "ê³¼ì¥": 
+				System.out.println("500ë§Œì›");
 				break;
 			
 			default:
-				System.out.println("300¸¸¿ø");
+				System.out.println("300ë§Œì›");
 				break;
 			}
 			
 		}else {
 			System.out.println(
 					switch (position) {
-					case "ºÎÀå" -> "700¸¸¿ø";
-					case "°úÀå" -> "500¸¸¿ø";
+					case "ë¶€ì¥" -> "700ë§Œì›";
+					case "ê³¼ì¥" -> "500ë§Œì›";
 					
-					default -> "300¸¸¿ø";
+					default -> "300ë§Œì›";
 			});
 		}
 	}

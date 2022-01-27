@@ -8,7 +8,7 @@ public class CharExample {
 		char c2 = 65;
 		char c3 = '\u0041';
 		
-		char c4 = '°¡';
+		char c4 = 'ê°€';
 		char c5 = 44032;
 		char c6 = '\uac00';
 		
@@ -17,9 +17,9 @@ public class CharExample {
 		System.out.println(c1); // A
 		System.out.println(c2); // A
 		System.out.println(c3); // A
-		System.out.println(c4); // °¡
-		System.out.println(c5); // °¡
-		System.out.println(c6); // °¡
+		System.out.println(c4); // ï¿½ï¿½
+		System.out.println(c5); // ï¿½ï¿½
+		System.out.println(c6); // ï¿½ï¿½
 		System.out.println(uniCode); // 65
 		
 	}

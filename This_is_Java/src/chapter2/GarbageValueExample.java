@@ -7,7 +7,7 @@ public class GarbageValueExample {
 		byte var1 = 125;
 		int var2 = 125;
 		
-		// byte 변수값이 127을 넘기는 순간 -128 부터 저장됨.
+		// byte 127 ~ 128
 		for(int i = 0; i < 5; i++) {
 			var1++;
 			var2++;
